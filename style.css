@@ -27,8 +27,8 @@ body {
     box-shadow: 1px 1px 1px rgba(0,0,0,.3);
     cursor: pointer;
     transform: scale(1);
-    transform-style: preserve-3d; /* add perspectiva 3d, ao elemento nao fique achatada ao plano */
-    transition: transform .9s; /* add efeito de movimento do flip do card */
+    transform-style: preserve-3d; /* add perspectiva 3d, ao elemento que nao fique achatada no plano */
+    transition: transform .9s; /* add efeito de movimento ao flip do card */
 }
 
 .card:active{
